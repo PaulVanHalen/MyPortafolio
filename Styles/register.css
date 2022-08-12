@@ -1,3 +1,13 @@
 *{
     text-align: center;
 }
+
+h1{
+    color:white;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+form{
+    color:white;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
