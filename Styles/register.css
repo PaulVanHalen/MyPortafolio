@@ -8,6 +8,21 @@ h1{
 }
 
 form{
+    
+    background-color: rgba(167, 182, 248, 0.5);
     color:white;
     text-shadow: 0.1em 0.1em 0.05em #333;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
+
+input
+{
+    width: 80%;
+}
+/* attribute selector*/
+input[type=text]:focus {
+    background-color: rgb(206, 217, 221);
+  }
