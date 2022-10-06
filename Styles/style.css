@@ -1,8 +1,8 @@
-.navbar-all,.navbar-logo{
+.navbar-all{
     background-color: #fccde3;
 }
 
-.body-all{
+.body-all .navbar-all{
     text-align: center;
     color:#333;
     background-color: #ffe6f2;
@@ -21,6 +21,3 @@ footer {
 #namelogo{
     color:#333;
 }
-
-
-
