@@ -1,15 +1,26 @@
-*{
-    text-align:center;
-    color: white;
+.navbar-all,.navbar-logo{
+    background-color: #fccde3;
+}
+
+.body-all{
+    text-align: center;
+    color:#333;
+    background-color: #ffe6f2;
 }
 
 footer {
     text-align: center;
     padding: 3px;
-    color: white;
   }
 
-#text1{
-    text-shadow: 0.1em 0.1em 0.05em #333;
+#logo{
+    width: 54px;
+    height: 54px;
 }
+
+#namelogo{
+    color:#333;
+}
+
+
 

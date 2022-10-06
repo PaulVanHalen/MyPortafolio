@@ -1,7 +1,6 @@
 
-let nombre = prompt("Digame su nombre");
-//la variable se va a guardar en "nombre"
+//let nombre = prompt("Digame su nombre");
 
-alert("Hola " + nombre + " gracias por visitar mi portafolio!");
+//alert("Hola " + nombre + " gracias por visitar mi portafolio!");
 
 
