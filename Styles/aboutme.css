@@ -1,35 +1,57 @@
-.all-browsers {
-    margin: 0 auto;
-    padding: 5px;
-    width: 1024px;
-  }
-  
-  h1{
-    color: white;
-  }
-  /* child selector */
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-    }
-  
-  .browser {
-    background: white;
-    border-radius: 1em;
-  }
-  
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 3px;
-    color: white;
+.navbar-brand {
+  letter-spacing: 1px;
+  color: #c24244;
+  font-family: "Press Start 2P";
+}
+
+.navbar-brand:hover {
+    color: #c24244;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #7f4722;
+  font-family: "Changa";
+  font-size: 14px;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled {
+  background-color: #e1ecd8;
+}
+
+main{
+  margin-top: 4em;
+  padding: 5px;
+  font-family: "Changa";
+  background-color: #e1ecd8;
+}
+
+#logo{
+  width: 54px;
+  height: 54px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #deffc7;
+  font-family: "Press Start 2P";
+  font-size: 10px;
+}
+
+.art{
+  background-color:#ffffff;
+  text-align:center;
+  width:60%;
+  padding: 15px;
+  margin: 30px auto;
   }
 
-  img{
-    width: 200px;
-    height: 150px;
+  li{
+    list-style:none;
   }
