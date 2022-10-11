@@ -53,6 +53,9 @@ footer {
       color: #ffffff !important;
     }
 
-    a:hover .fab .nav-item .nav-link{
+    a:hover .fab{
       color:#ffc2d1 !important;
     }
+
+    a:hover .fab .nav-item .nav-link{
+      color:#ffc2d1 !important;
