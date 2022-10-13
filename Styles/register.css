@@ -1,5 +1,11 @@
-*{
-    text-align: center;
+
+body{
+    background-image: url("/img/space2.jpg");
+    background-size: 1200px 800px;
+}
+
+h1, form, #register{
+    text-align:center;
 }
 
 h1{
@@ -22,12 +28,12 @@ input
 {
     width: 80%;
 }
-/* attribute selector*/
+
 input[type=text]:focus {
     background-color: rgb(206, 217, 221);
   }
 
 #register{
+    background: #eb94d0;
     width: 150px;
-    background-color: rgb(221, 230, 240);
 }
