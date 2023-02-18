@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("/img/space2.jpg");
+    background-image: url("/MyPortfolio/img/synth.jpg");
     background-size: 1200px 800px;
 }
 
@@ -19,9 +19,11 @@ form{
     color:white;
     text-shadow: 0.1em 0.1em 0.05em #333;
     width: 30%;
-    padding: 12px 20px;
+    padding: 10px 10px;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: "Changa";
+    font-size: 15px;
 }
 
 input
@@ -30,10 +32,14 @@ input
 }
 
 input[type=text]:focus {
-    background-color: rgb(206, 217, 221);
+    background-color: rgb(166, 231, 255);
   }
 
 #register{
     background: #eb94d0;
     width: 150px;
+}
+
+a:hover{
+    color:#84ffe4;
 }

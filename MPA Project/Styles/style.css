@@ -3,6 +3,7 @@
     letter-spacing: 1px;
     color: #ffffff !important;
     font-family: "Press Start 2P";
+    box-shadow: 2px 2px 2px 2px #000000;
   }
   
 .navbar-brand:hover {
@@ -22,8 +23,11 @@
   }
 
 main{
-    background-image: url("/img/bg-developer.jpg");
+    background-image: url("/MyPortfolio/img/sun.jpg");
     background-size: 75rem;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 5px;
     font-family: "Changa";
   }
@@ -53,6 +57,7 @@ footer {
     width:60%;
     padding: 15px;
     margin: 75px auto;
+    box-shadow: 2px 2px 2px 2px #000000;
     }
 
     .fab{
@@ -69,4 +74,9 @@ footer {
 
   .flex-box{
     color:#ffffff;
+  }
+
+  .navbar-brand{
+    text-shadow: #000000;
+    box-shadow: #000000;
   }
