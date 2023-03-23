@@ -1,7 +1,11 @@
 
+.navbar {
+  background-image:url("./img/6074593.jpg");
+}
+
 .navbar-brand {
     letter-spacing: 1px;
-    color: #ffffff !important;
+    color: #ffffff;
     font-family: "Press Start 2P";
     box-shadow: 2px 2px 2px 2px #000000;
   }
@@ -23,7 +27,7 @@
   }
 
 main{
-    background-image: url("/MyPortfolio/img/sun.jpg");
+    background-image: url("/img/6005990.jpg");
     background-size: 75rem;
     background-position: center center;
     background-attachment: fixed;
@@ -48,7 +52,9 @@ footer {
   .art{
     /*background-color:#ffffffe1;*/
     color: #ffffff;
-    background-image:url("/img/postres.png");
+    text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    background-image:url("/img/postres1.png");
+    background-size: cover;
     border-radius: 15px;
     border-color: #deffc7;
     border-style: solid;
